@@ -11,6 +11,10 @@ Tutorial auf https://code.pybricks.com/ folgen
 pip install pybricksdev
 ## Klonen des Repositorys auf das Gerät
 In cmd diese 3 Befehle nacheinander ausführen
-1. `cd %userprofile%/Documents`
-2. `mkdir GitHub && cd ./GitHub`
-3. `git clone https://github.com/MOEP-Robotik/Robotik_Moep.git`
+```bash
+cd %userprofile%/Documents
+
+mkdir GitHub && cd ./GitHub
+
+git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
+```
