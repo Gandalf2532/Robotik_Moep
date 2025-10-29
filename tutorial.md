@@ -6,7 +6,7 @@
 - [Pybricks](#pybricks-grundlagen)
 - [git](#simple-git-Befehle)
 
-## Installation [Setup](./Installation/Setup.md)
+## [Installation](./Installation/Setup.md)
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
 - git
 - Python
@@ -14,19 +14,22 @@
 
 ### Zusätzliche Dinge, die installiert werden können und dringend empfohlen werden:
 - Visual Studio Code
-- Visual Studio Code Erweiterung für GitHub (über Visual Studio Code)
-- Visual Studio Code Erweiterung für Pybricks (über Visual Studio Code)
+- [Visual Studio Code Erweiterung für GitHub Actions (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+- [Visual Studio Code Erweiterung für Pybricks (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=dusongpei.pybricks) 
 
 ## Python Grundlagen
 Eine gute "Grundlage" bilden die Python-Docs unter python.org
 
 ## Pybricks Grundlagen
+Findet man auch online
 
 ## simple git Befehle
 > [!TIP]
 > Die Befehle müssen **nicht** gelernt werden, sofern die Visual Studio Code Erweiterung für GitHub verwendet wird
-git ...
+
+**git ...**
 - ...**help**
 - ...add
 - ...push
 - ...commit
+- ...pull
