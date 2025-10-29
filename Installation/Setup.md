@@ -5,6 +5,9 @@
 ### Installer:
 - https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe
 ## Pybricks
+## git
+### Installer:
+- https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-64-bit.exe
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
 Tutorial auf https://code.pybricks.com/ folgen
 ### Auf dem Laptop
