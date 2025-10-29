@@ -25,7 +25,7 @@ Eine gute "Grundlage" bilden die Python-Docs unter python.org
 ## simple git Befehle
 > [!TIP]
 > Die Befehle müssen **nicht** gelernt werden, sofern die Visual Studio Code Erweiterung für GitHub verwendet wird
-git ...
+**git ...**
 - ...**help**
 - ...add
 - ...push
