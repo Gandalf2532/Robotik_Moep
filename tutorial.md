@@ -14,13 +14,14 @@
 
 ### Zusätzliche Dinge, die installiert werden können und dringend empfohlen werden:
 - Visual Studio Code
-- Visual Studio Code Erweiterung für GitHub (über Visual Studio Code)
-- Visual Studio Code Erweiterung für Pybricks (über Visual Studio Code)
+- [Visual Studio Code Erweiterung für GitHub Actions (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+- [Visual Studio Code Erweiterung für Pybricks (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=dusongpei.pybricks) 
 
 ## Python Grundlagen
 Eine gute "Grundlage" bilden die Python-Docs unter python.org
 
 ## Pybricks Grundlagen
+Findet man auch online
 
 ## simple git Befehle
 > [!TIP]
@@ -31,3 +32,4 @@ Eine gute "Grundlage" bilden die Python-Docs unter python.org
 - ...add
 - ...push
 - ...commit
+- ...pull
