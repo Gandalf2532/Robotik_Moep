@@ -10,7 +10,7 @@ Tutorial auf https://code.pybricks.com/ folgen
 ### Auf dem Laptop
 pip install pybricksdev
 ## Klonen des Repositorys auf das Gerät
-> [!IMPORTANT] 
-> Befehl muss im richtigen Ordner ausgeführt werden. Bei richtiger git Installation sollte das auch funktionieren 
-
-`git clone https://github.com/MOEP-Robotik/Robotik_Moep.git`
+In cmd diese 3 Befehle nacheinander ausführen
+1. `cd %userprofile%/Documents`
+2. `mkdir GitHub && cd ./GitHub`
+3. `git clone https://github.com/MOEP-Robotik/Robotik_Moep.git`

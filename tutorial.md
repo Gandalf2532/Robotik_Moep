@@ -6,7 +6,7 @@
 - [Pybricks](#pybricks-grundlagen)
 - [git](#simple-git-Befehle)
 
-## Installation [Setup](./Installation/Setup.md)
+## [Installation](./Installation/Setup.md)
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
 - git
 - Python
