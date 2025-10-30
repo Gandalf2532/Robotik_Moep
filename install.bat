@@ -35,4 +35,3 @@ if %errorlevel%==0 (
         winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
     )
 )
-echo.
