@@ -2,7 +2,7 @@
 setlocal
 
 echo ====================================================
-echo Installer für dieses Projekt
+echo Robotik MOEP Installer
 echo ====================================================
 echo.
 
@@ -28,7 +28,7 @@ winget list --id %PACKAGE_ID% | findstr /I "%PACKAGE_ID%" >nul
 if %errorlevel%==0 (
     echo %PACKAGE_NAME% ist schon installiert. Wird übersprungen...
 ) else (
-    set /p PROMPT=Möchtest du %PACKAGE_NAME% installieren? (y/n)
+    set /p PROMPT=Willst du %PACKAGE_NAME% installieren? [Y/n] 
     if "%PROMPT%"=="n" (
         echo %PACKAGE_NAME% wird nicht installiert!
     ) else (
