@@ -6,6 +6,9 @@ echo Installer für dieses Projekt
 echo ====================================================
 echo.
 
+echo Du musst y eingeben, sonst funktioniert das skript nicht!
+winget list
+
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
 call :install "Docker.DockerDesktop" "Docker Desktop"
