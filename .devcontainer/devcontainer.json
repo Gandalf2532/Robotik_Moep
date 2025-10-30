@@ -13,12 +13,13 @@
         "esbenp.prettier-vscode",
         "Alexey-Strakh.stackoverflow-search",
         "github.vscode-github-actions",
-        "NilsSoderman.batch-runner"
+        "NilsSoderman.batch-runner",
+        "dusongpei.pybricks"
       ]
     }
   },
   "postCreateCommand": "pip install -r requirements.txt",
   "mounts": [
-    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
   ]
 }
