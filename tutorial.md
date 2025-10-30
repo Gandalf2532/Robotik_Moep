@@ -8,14 +8,8 @@
 
 ## [Installation](./Installation/Setup.md)
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
-- git
-- Python
-- Pybricks für Python
-
-### Zusätzliche Dinge, die installiert werden können und dringend empfohlen werden:
-- Visual Studio Code
-- [Visual Studio Code Erweiterung für GitHub Actions (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
-- [Visual Studio Code Erweiterung für Pybricks (über Visual Studio Code)](https://marketplace.visualstudio.com/items?itemName=dusongpei.pybricks) 
+- [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win64user)
+- [Dev Container Erweiterung für Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ## Python Grundlagen
 Eine gute "Grundlage" bilden die Python-Docs unter python.org

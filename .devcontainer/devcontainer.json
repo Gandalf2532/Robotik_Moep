@@ -1,0 +1,22 @@
+{
+  "name": "Pybricks",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode-remote.remote-containers",
+        "esbenp.prettier-vscode",
+        "Alexey-Strakh.stackoverflow-search"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ]
+}
