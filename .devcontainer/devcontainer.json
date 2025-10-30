@@ -14,7 +14,8 @@
         "Alexey-Strakh.stackoverflow-search",
         "github.vscode-github-actions",
         "NilsSoderman.batch-runner",
-        "dusongpei.pybricks"
+        "dusongpei.pybricks",
+        "oliverdantzer.file-structure-tree"
       ]
     }
   },

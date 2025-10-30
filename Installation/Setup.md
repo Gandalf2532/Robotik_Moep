@@ -12,7 +12,7 @@ mkdir GitHub && cd ./GitHub
 git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
 ```
 Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet.
-In den Unterordner FLL2025_26 sollte ein Ordner .vscode sein. Es existiert darin ein .devcontainer. Nach dem Öffnen des geklonten Ordners in Visual Studio Code sollte unten rechts eine Meldung kommen, ob der Ordner als DevContainer geöffnet werden soll. Dort auf Ja klicken. Beim ersten öffnen dauert es etwas länger als danach.
+In den Unterordner FLL2025_26 sollte ein Ordner .vscode sein. Es existiert darin ein .devcontainer. Nach dem Öffnen des geklonten Ordners in Visual Studio Code sollte unten rechts eine Meldung kommen, ob der Ordner als DevContainer geöffnet werden soll. Dort auf "Reopen" o.ä. klicken. Beim ersten öffnen dauert es etwas länger als danach.
 ## Pybricks
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
 Tutorial auf https://code.pybricks.com/ folgen
