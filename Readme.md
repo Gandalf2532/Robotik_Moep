@@ -35,7 +35,7 @@ git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
 ```
 Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet. Nach dem Öffnen des geklonten Ordners in Visual Studio Code sollte unten rechts eine Meldung kommen, ob der Ordner als DevContainer geöffnet werden soll. Dort auf "Reopen" o.ä. klicken. Beim ersten öffnen dauert es etwas länger als danach.
 > [!NOTE]
-> Da es ein Dicker Container ist, ist das Terminal ein Linux Terminal, hat also nicht die commands, die Windows hat. Außerhalb bleibt alles wie bei Windows. 
+> Da es ein Docker Container ist, ist das Terminal ein Linux Terminal, hat also nicht die commands, die Windows hat. Außerhalb bleibt alles wie bei Windows. 
 
 ## Pybricks
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
@@ -57,3 +57,4 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
