@@ -4,6 +4,7 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 
 > [!IMPORTANT]
 > Tutorial ist noch nicht fertig. Visual Studio Code und die Pybricks packages müssen anders vorbereitet werden. Langsam wird es
+> Finger weg von .devcontainer, .vscode und requirements.txt
 
 # Tutorial zu Python, Pybricks und der Installation der Abhängigkeiten, sowie eine kleine übersicht über git
 
@@ -13,7 +14,7 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 - [Pybricks](#pybricks-grundlagen)
 - [git](#simple-git-Befehle)
 
-## [Installation](./Installation/Setup.md)
+## Installation
 
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
 - [git](https://github.com/git-for-windows/git/releases/download/v2.51.2.windows.1/Git-2.51.2-64-bit.exe)
