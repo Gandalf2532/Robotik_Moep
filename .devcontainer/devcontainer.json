@@ -11,7 +11,9 @@
         "ms-python.vscode-pylance",
         "ms-vscode-remote.remote-containers",
         "esbenp.prettier-vscode",
-        "Alexey-Strakh.stackoverflow-search"
+        "Alexey-Strakh.stackoverflow-search",
+        "github.vscode-github-actions",
+        "NilsSoderman.batch-runner"
       ]
     }
   },
