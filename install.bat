@@ -12,14 +12,18 @@ winget list
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
 call :install "Docker.DockerDesktop" "Docker Desktop"
-code --install-extension ms-python.python \
-     --install-extension ms-python.vscode-pylance \
-     --install-extension esbenp.prettier-vscode \
-     --install-extension Alexey-Strakh.stackoverflow-search \
-     --install-extension github.vscode-github-actions \
-     --install-extension NilsSoderman.batch-runner \
-     --install-extension dusongpei.pybricks \
-     --install-extension oliverdantzer.file-structure-tree
+
+set EXTENSIONS=ms-python.python ms-python.vscode-pylance esbenp.prettier-vscode Alexey-Strakh.stackoverflow-search github.vscode-github-actions NilsSoderman.batch-runner dusongpei.pybricks oliverdantzer.file-structure-tree
+
+for %%E in (%EXTENSIONS%) do (
+    code --list-extensions | findstr /I "%%E" >nul
+    if errorlevel 1 (
+        code --install-extension %%E
+        timeout /t 2 /nobreak >nul
+    ) else (
+        echo %%E ist bereits installiert
+    )
+)
 
 
 echo.
