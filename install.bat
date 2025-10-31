@@ -11,7 +11,6 @@ winget list
 
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
-call :install "Docker.DockerDesktop" "Docker Desktop"
 
 set EXTENSIONS=ms-python.python ms-python.vscode-pylance esbenp.prettier-vscode Alexey-Strakh.stackoverflow-search github.vscode-github-actions NilsSoderman.batch-runner dusongpei.pybricks oliverdantzer.file-structure-tree
 
