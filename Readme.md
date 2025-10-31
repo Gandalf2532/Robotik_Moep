@@ -18,7 +18,7 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
 > [!NOTE]
-> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com)
+> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com). Das einzige, was noch manuell installiert werden muss, ist die Wrweiterung.
 
 - [git](https://git-scm.com/install)
 - [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win64user)
