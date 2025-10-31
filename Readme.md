@@ -42,6 +42,7 @@ Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird 
 > [!IMPORTANT]
 > $user durch unseren Nutzernamen ersetzen
 > $passwort durch unser Passwort ersetzen
+
 > [!NOTE]
 > Da es ein Docker Container ist, ist das Terminal ein Linux Terminal, hat also nicht die commands, die Windows hat. Außerhalb bleibt alles wie bei Windows. 
 
@@ -65,6 +66,7 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
 
 
 
