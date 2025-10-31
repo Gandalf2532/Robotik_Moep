@@ -17,6 +17,9 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 ## Installation
 
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
+> [!NOTE]
+> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com)
+
 - [git](https://git-scm.com/install)
 - [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win64user)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
