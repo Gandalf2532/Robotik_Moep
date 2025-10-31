@@ -7,6 +7,6 @@ hub = PrimeHub()
 
 Bewegungsmotoren = DriveBase(Motor(Port.C), Motor(Port.D, Direction.COUNTERCLOCKWISE), 55, 100) #Reifendurchmesser und achsenlänge abmessen
 
-Bewegungsmotoren.straight(500)
-Bewegungsmotoren.curve(30)
+Bewegungsmotoren.straight(200)
+Bewegungsmotoren.curve(100, 360)
 
