@@ -36,13 +36,11 @@ git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
 
 git config --global user.name $user && git config --global user.email $email
 ```
-Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet. Nach dem Öffnen des geklonten Ordners in Visual Studio Code sollte unten rechts eine Meldung kommen, ob der Ordner als DevContainer geöffnet werden soll. Dort auf "Reopen" o.ä. klicken. Beim ersten öffnen dauert es etwas länger als danach. Vor dem Öffnen muss docker desktop geöffnet werden, die Lizenzvereinbarungen akzeptieren und beim Kontoerstellen auf "Skip" drücken.
+Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet. Nach dem Öffnen des geklonten Ordners in Visual Studio Code das Terminal öffnen (Standard Tastenkombination ist: STRG + ö) und `pip install -r requirements.txt` ausführen.
 > [!IMPORTANT]
 > $user durch unseren Nutzernamen ersetzen
 > $email durch unsere Email ersetzen. Beim ersten Commit wird dann eine Aufforderung gestellt, sich anzumelden. @Gandalf2532 hat das Passwort. 
-
-> [!NOTE]
-> Da es ein Docker Container ist, ist das Terminal ein Linux Terminal, hat also nicht die commands, die Windows hat. Außerhalb bleibt alles wie bei Windows. 
+ 
 
 ## Pybricks
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
