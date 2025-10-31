@@ -21,7 +21,8 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 > Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).
 
 - [git](https://git-scm.com/install)
-- [Visual Studio Code] (Desktophttps://code.visualstudio.com/docs/?dv=win64user)
+- [Visual Studio Code](Desktophttps://code.visualstudio.com/docs/?dv=win64user)
+
 
 Bei allen gilt: downloaden und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
 
@@ -40,7 +41,8 @@ Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird 
 > [!IMPORTANT]
 > $user durch unseren Nutzernamen ersetzen
 > $email durch unsere Email ersetzen. Beim ersten Commit wird dann eine Aufforderung gestellt, sich anzumelden. @Gandalf2532 hat das Passwort. 
- 
+
+ 
 
 ## Pybricks
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
@@ -62,6 +64,7 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
 
 
 
