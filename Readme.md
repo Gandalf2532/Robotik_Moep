@@ -26,7 +26,7 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 Bei allen gilt: downloaden und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
 
 ### Klonen des Repositorys auf das Gerät
-In cmd diese 3 Befehle ausführen
+In cmd diese 4 Befehle ausführen
 ```bash
 cd %userprofile%/Documents
 
