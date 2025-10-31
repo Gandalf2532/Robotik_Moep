@@ -21,7 +21,7 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 > Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).
 
 - [git](https://git-scm.com/install)
-- [Visual Studi Desktophttps://code.visualstudio.com/docs/?dv=win64user)
+- [Visual Studio Code] Desktophttps://code.visualstudio.com/docs/?dv=win64user)
 
 Bei allen gilt: downloaden und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
 
