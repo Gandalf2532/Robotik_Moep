@@ -12,6 +12,7 @@ winget list
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
 call :install "Docker.DockerDesktop" "Docker Desktop"
+code --install-extension ms-vscode-remote.remote-containers
 
 echo.
 echo ====================================================
