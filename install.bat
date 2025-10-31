@@ -12,7 +12,15 @@ winget list
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
 call :install "Docker.DockerDesktop" "Docker Desktop"
-code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-python.python \
+     --install-extension ms-python.vscode-pylance \
+     --install-extension esbenp.prettier-vscode \
+     --install-extension Alexey-Strakh.stackoverflow-search \
+     --install-extension github.vscode-github-actions \
+     --install-extension NilsSoderman.batch-runner \
+     --install-extension dusongpei.pybricks \
+     --install-extension oliverdantzer.file-structure-tree
+
 
 echo.
 echo ====================================================
