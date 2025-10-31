@@ -21,11 +21,9 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 > Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).
 
 - [git](https://git-scm.com/install)
-- [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win64user)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [Dev Container Erweiterung für Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Visual Studi Desktophttps://code.visualstudio.com/docs/?dv=win64user)
 
-Bei allen gilt: Downloaden (also auf die Links klicken) und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
+Bei allen gilt: downloaden und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
 
 ### Klonen des Repositorys auf das Gerät
 In cmd diese 3 Befehle ausführen
@@ -36,12 +34,12 @@ mkdir GitHub && cd ./GitHub
 
 git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
 
-git config --global user.name $user && git config --global user.password $passwort
+git config --global user.name $user && git config --global user.email $email
 ```
 Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet. Nach dem Öffnen des geklonten Ordners in Visual Studio Code sollte unten rechts eine Meldung kommen, ob der Ordner als DevContainer geöffnet werden soll. Dort auf "Reopen" o.ä. klicken. Beim ersten öffnen dauert es etwas länger als danach. Vor dem Öffnen muss docker desktop geöffnet werden, die Lizenzvereinbarungen akzeptieren und beim Kontoerstellen auf "Skip" drücken.
 > [!IMPORTANT]
 > $user durch unseren Nutzernamen ersetzen
-> $passwort durch unser Passwort ersetzen
+> $email durch unsere Email ersetzen. Beim ersten Commit wird dann eine Aufforderung gestellt, sich anzumelden. @Gandalf2532 hat das Passwort. 
 
 > [!NOTE]
 > Da es ein Docker Container ist, ist das Terminal ein Linux Terminal, hat also nicht die commands, die Windows hat. Außerhalb bleibt alles wie bei Windows. 
