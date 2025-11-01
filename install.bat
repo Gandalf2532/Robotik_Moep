@@ -15,7 +15,6 @@ for %%E in (%EXTENSIONS%) do (
     code --list-extensions | findstr /I "%%E" >nul
     if errorlevel 1 (
         code --install-extension %%E
-        timeout /t 2 /nobreak >nul
     ) else (
         echo %%E ist bereits installiert
     )
@@ -51,6 +50,7 @@ if %errorlevel%==0 (
 ) else (
     winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
 )
+
 
 
 
