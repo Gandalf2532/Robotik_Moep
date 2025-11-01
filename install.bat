@@ -49,12 +49,8 @@ winget list --id %PACKAGE_ID% --accept-source-agreements | findstr /I "%PACKAGE_
 if %errorlevel%==0 (
     echo %PACKAGE_NAME% ist schon installiert. Wird übersprungen...
 ) else (
-    set /p PROMPT="Willst du %PACKAGE_NAME% installieren? [Y/n] "
-    if "%PROMPT%"=="n" (
-        echo %PACKAGE_NAME% wird nicht installiert!
-    ) else (
-        winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
-    )
+    winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
 )
+
 
 
