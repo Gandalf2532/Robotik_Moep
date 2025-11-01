@@ -30,6 +30,10 @@ cd GitHub
 git clone https://github.com/MOEP-Robotik/Robotik_Moep
 git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL%
 
+echo Python requirements installieren...
+cd %USERPROFILE%/Documents/GitHub/Robotik_Moep
+pip install -r requirements
+
 echo.
 echo ====================================================
 echo Alle installationen abgeschlossen
@@ -52,4 +56,5 @@ if %errorlevel%==0 (
         winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
     )
 )
+
 
