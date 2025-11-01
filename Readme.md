@@ -18,7 +18,8 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 
 ### Abhängigkeiten und Dinge, die installiert werden müssen:
 > [!NOTE]
-> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).
+> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).  
+> Oder `curl https://raw.githubusercontent.com/MOEP-Robotik/Robotik_Moep/refs/heads/main/install.bat -o install.bat && install.bat` in cmd eingeben
 
 - [git](https://git-scm.com/install)
 - [Visual Studio Code](Desktophttps://code.visualstudio.com/docs/?dv=win64user)
@@ -64,6 +65,7 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
 
 
 
