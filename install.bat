@@ -6,14 +6,11 @@ echo Robotik MOEP Installer
 echo ====================================================
 echo.
 
-echo Du musst y eingeben, sonst funktioniert das skript nicht!
-winget list
-
 call :install "Git.Git" "Git"
 call :install "Microsoft.VisualStudioCode" "Visual Studio Code"
 
+echo Erweiterungen werden installiert...
 set EXTENSIONS=ms-python.python ms-python.vscode-pylance esbenp.prettier-vscode Alexey-Strakh.stackoverflow-search github.vscode-github-actions NilsSoderman.batch-runner dusongpei.pybricks oliverdantzer.file-structure-tree
-
 for %%E in (%EXTENSIONS%) do (
     code --list-extensions | findstr /I "%%E" >nul
     if errorlevel 1 (
@@ -24,6 +21,14 @@ for %%E in (%EXTENSIONS%) do (
     )
 )
 
+echo Repository wird geklont...
+set /p GIT_USER="Gib den Nutzernamen ein: "
+set /p GIT_EMAIL="Gib die Email ein: "
+cd %USERPROFILE%/Documents
+mkdir GitHub
+cd GitHub
+git clone https://github.com/MOEP-Robotik/Robotik_Moep
+git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL%
 
 echo.
 echo ====================================================
@@ -36,14 +41,15 @@ exit /b
 set "PACKAGE_ID=%~1"
 set "PACKAGE_NAME=%~2"
 
-winget list --id %PACKAGE_ID% | findstr /I "%PACKAGE_ID%" >nul
+winget list --id %PACKAGE_ID% --accept-source-agreements | findstr /I "%PACKAGE_ID%" >nul
 if %errorlevel%==0 (
     echo %PACKAGE_NAME% ist schon installiert. Wird übersprungen...
 ) else (
-    set /p PROMPT=Willst du %PACKAGE_NAME% installieren? [Y/n] 
+    set /p PROMPT="Willst du %PACKAGE_NAME% installieren? [Y/n] "
     if "%PROMPT%"=="n" (
         echo %PACKAGE_NAME% wird nicht installiert!
     ) else (
         winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
     )
 )
+
