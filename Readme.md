@@ -2,10 +2,6 @@
 
 Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups herzustellen.
 
-> [!IMPORTANT]
-> Tutorial ist noch nicht fertig. Visual Studio Code und die Pybricks packages müssen anders vorbereitet werden. Langsam wird es.
-> Finger weg von .devcontainer, .vscode und requirements.txt !!!
-
 # Tutorial zu Python, Pybricks und der Installation der Abhängigkeiten, sowie eine kleine übersicht über git
 
 ## Inhaltsverzeichnis
@@ -40,6 +36,7 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
 
 
 
