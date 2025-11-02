@@ -15,35 +15,10 @@ Das hier ist unser Repository, um unsere FLL Projekte zu sichern und Backups her
 - [git](#simple-git-Befehle)
 
 ## Installation
+`curl https://raw.githubusercontent.com/MOEP-Robotik/Robotik_Moep/refs/heads/main/install.bat -o install.bat && install.bat` in cmd eingeben
 
-### Abhängigkeiten und Dinge, die installiert werden müssen:
-> [!NOTE]
-> Dafür einfach install.bat ausführen. Die kann man online einfach so downloaden (über GitHub.com).  
-> Oder `curl https://raw.githubusercontent.com/MOEP-Robotik/Robotik_Moep/refs/heads/main/install.bat -o install.bat && install.bat` in cmd eingeben
-
-- [git](https://git-scm.com/install)
-- [Visual Studio Code](Desktophttps://code.visualstudio.com/docs/?dv=win64user)
-
-
-Bei allen gilt: downloaden und dann ausführen. Wenn etwas in den Path soll, gerne akzeptieren (vor allem git)
-
-### Klonen des Repositorys auf das Gerät
-In cmd diese 4 Befehle ausführen
-```bash
-cd %userprofile%/Documents
-
-mkdir GitHub && cd ./GitHub
-
-git clone https://github.com/MOEP-Robotik/Robotik_Moep.git
-
-git config --global user.name $user && git config --global user.email $email
-```
-Dabei wird ein neuer Ordner GitHub im Ordner Dokumente erstellt. In diesem wird das Repository geklont. Dort wird auch gearbeitet. Nach dem Öffnen des geklonten Ordners in Visual Studio Code das Terminal öffnen (Standard Tastenkombination ist: STRG + ö) und `pip install -r requirements.txt` ausführen.
 > [!IMPORTANT]
-> $user durch unseren Nutzernamen ersetzen
-> $email durch unsere Email ersetzen. Beim ersten Commit wird dann eine Aufforderung gestellt, sich anzumelden. @Gandalf2532 hat das Passwort. 
-
- 
+> Beim ersten Commit wird dann eine Aufforderung gestellt, sich anzumelden. @Gandalf2532 hat das Passwort. 
 
 ## Pybricks
 ### Auf dem Spike Prime Hub (im Normalfall bereits geschehen)
@@ -65,6 +40,7 @@ Findet man auch online
 - ...commit
 
 - ...pull
+
 
 
 
