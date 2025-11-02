@@ -1,4 +1,4 @@
- @echo off
+@echo off
 setlocal
 
 echo ====================================================
@@ -28,7 +28,7 @@ cd %USERPROFILE%/Documents
 mkdir GitHub
 cd GitHub
 git clone https://github.com/MOEP-Robotik/Robotik_Moep
-git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL% && config --global user.password %GIT_PASSWORD%
+git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL% && git config --global user.password %GIT_PASSWORD%
 
 echo Python requirements installieren...
 cd %USERPROFILE%/Documents/GitHub/Robotik_Moep
@@ -51,8 +51,3 @@ if %errorlevel%==0 (
 ) else (
     winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
 )
-
-
-
-
-
