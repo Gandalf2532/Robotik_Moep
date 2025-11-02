@@ -1,4 +1,4 @@
-@echo off
+ @echo off
 setlocal
 
 echo ====================================================
@@ -21,13 +21,14 @@ for %%E in (%EXTENSIONS%) do (
 )
 
 echo Repository wird geklont...
-set /p GIT_USER="Gib den Nutzernamen ein: "
-set /p GIT_EMAIL="Gib die Email ein: "
+set /p GIT_USER="Gib den GitHub-Nutzernamen ein: "
+set /p GIT_EMAIL="Gib die GitHub-Email ein: "
+set /p GIT_PASSWORD="Gib das GitHub-Passwort: "
 cd %USERPROFILE%/Documents
 mkdir GitHub
 cd GitHub
 git clone https://github.com/MOEP-Robotik/Robotik_Moep
-git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL%
+git config --global user.name %GIT_USER% && git config --global user.email %GIT_EMAIL% && config --global user.password %GIT_PASSWORD%
 
 echo Python requirements installieren...
 cd %USERPROFILE%/Documents/GitHub/Robotik_Moep
@@ -50,6 +51,7 @@ if %errorlevel%==0 (
 ) else (
     winget install --id %PACKAGE_ID% --silent --accept-package-agreements --accept-source-agreements
 )
+
 
 
 
