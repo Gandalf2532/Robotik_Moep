@@ -6,6 +6,7 @@ from pybricks.tools import wait
 
 HUB = PrimeHub()
 
+#ich glaube, es gibt auch eine Gyro_Drive_Base
 BEWEGUNGSMOTOREN = DriveBase(Motor(Port.C), Motor(Port.D, Direction.COUNTERCLOCKWISE), 55, 100) #55mm Reifendurchmesser, 100mm achesnbreite
 
 #Tests, wie genau Pybricks arbeitet und ob ein eigener GyroTurn gebraucht wird. Am Ende sollte der Bot da stehen, wo er gestartet ist.
