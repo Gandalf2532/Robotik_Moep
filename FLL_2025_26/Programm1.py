@@ -8,13 +8,14 @@ HUB = PrimeHub()
 
 HUB.imu.reset_heading(0)
 BEWEGUNGSMOTOREN = DriveBase(Motor(Port.D, Direction.COUNTERCLOCKWISE), Motor(Port.C), 56, 150)
-#130 anpassen, falls falsch. Dann aber allen mitteilen
 BEWEGUNGSMOTOREN.use_gyro(True)
-BEWEGUNGSMOTOREN.settings(straight_speed=800)
 
-BEWEGUNGSMOTOREN.straight(280)
-BEWEGUNGSMOTOREN.turn(90)
-BEWEGUNGSMOTOREN.straight(500)
-BEWEGUNGSMOTOREN.straight(-500)
-BEWEGUNGSMOTOREN.turn(-90)
-BEWEGUNGSMOTOREN.straight(-280)
+TOPRIGHT = Motor(Port.A)
+TOPLEFT = Motor(Port.E)
+
+BEWEGUNGSMOTOREN.settings(straight_speed=800)
+TOPLEFT.run_angle(1000, 550, wait=False)
+BEWEGUNGSMOTOREN.straight(700)
+TOPLEFT.run_angle(1000, -550)
+BEWEGUNGSMOTOREN.turn(-45)
+BEWEGUNGSMOTOREN.straight(200)
