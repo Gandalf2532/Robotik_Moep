@@ -6,11 +6,7 @@ from pybricks.tools import wait
 
 HUB = PrimeHub()
 
-HUB.imu.reset_heading(0)
+#ich glaube, es gibt auch eine Gyro_Drive_Base
+BEWEGUNGSMOTOREN = DriveBase(Motor(Port.C), Motor(Port.D, Direction.COUNTERCLOCKWISE), 55, 100)
 
-TOPLEFT = Motor(Port.E)
-TOPRIGHT = Motor(Port.A)
-
-while True:
-    TOPLEFT.run_angle(1200, -100)
-    TOPLEFT.run_angle(1200, 100)
+BEWEGUNGSMOTOREN.straight(200)
